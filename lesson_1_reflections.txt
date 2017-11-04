@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    If one works, and the other doesn't, then the problem is a change between
+    the two.  Some changes may be good, but at least one wasn't.  Helps to focus
+    thought on only the stuff that could matter.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could always go back to the point when you were confident in the
+    code and start over from there.  And because of that, you can try more
+    ambitious things, knowing that you can always go back to the working
+    version.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like
+Google Doc does?
+
+    Each commit has a reason behind it.  Now you have ownership of the version.
+    It's something you created so you have an understanding of its purpose.
+    And non-sensical commits do not occur.  Neither do you have to wait too
+    long for commits that obviously make sense.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving multiple files in a commit makes sense if they are all part of a
+    larger package, such as individual files that make up a program.  This is
+    more important when the files are interrelated.  If they aren't, then it
+    doesn't make as much sense and unnecessarily uses resources.  If files
+    aren't interrelated and are joined in commits, then most commits are still
+    only going to show a change in one of the files.
+
+How can you use the commands git log and git diff to view the history of the
+file?
+
+    git log shows the info for each commit in chronological order.  Works for
+    both files and repositories.  Use git log --stat to see some more info.
+    git diff will show the difference between two commits when passed the
+    IDs for each.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that you can always go back to the version that works lets you be
+    more adventurous in the code.  At worst, you can just go back to a working
+    version and start over.
+
+Now that you have your workspace setup, what do you want to try using git for?
+
+    Nothing at this time.  I'm learning this as a prereq for a deep learning
+    MOOC on tensorflow.
