@@ -16,3 +16,9 @@ change?
     Only place the files that express the single change into the staging area
     before commit.  Leave unrelated changes in the working directory and save
     for a future commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized?  How would branches help?
+
+    When maintaining two or more distinct development paths, branching will keep
+    track of each and version control the individual paths.
