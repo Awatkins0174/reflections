@@ -22,3 +22,8 @@ organized?  How would branches help?
 
     When maintaining two or more distinct development paths, branching will keep
     track of each and version control the individual paths.
+
+How do the diagrams help you visualize the branch structure?
+
+    By charting the branches as a graph, you can see the individual paths of
+    development for each branch.
