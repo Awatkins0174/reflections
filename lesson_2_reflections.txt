@@ -9,3 +9,10 @@ What value do you think it offers?
     The staging area is an intermediate folder which holds the contents of a
     commit.  Files are added to it with a git add command.  In that way, not
     every file in the working folder is necessarily added to the repository. x
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    Only place the files that express the single change into the staging area
+    before commit.  Leave unrelated changes in the working directory and save
+    for a future commit.
