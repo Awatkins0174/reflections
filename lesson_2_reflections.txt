@@ -27,3 +27,8 @@ How do the diagrams help you visualize the branch structure?
 
     By charting the branches as a graph, you can see the individual paths of
     development for each branch.
+
+What is the result of merging two branches together?  Why do we represent it in
+the diagram as we do?
+
+    All change are combined into one branch.
