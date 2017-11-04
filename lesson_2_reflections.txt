@@ -8,4 +8,4 @@ What value do you think it offers?
 
     The staging area is an intermediate folder which holds the contents of a
     commit.  Files are added to it with a git add command.  In that way, not
-    every file in the working folder is necessarily added to the repository.
+    every file in the working folder is necessarily added to the repository. x
